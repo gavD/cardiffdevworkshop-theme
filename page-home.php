@@ -7,20 +7,26 @@ Template Name: Homepage
 <?php get_header(); ?>
 			<div id="content">
 				<div id="inner-content" class="wrap clearfix">
-				    <div id="main" class="not-homepage eightcol first clearfix" role="main">
+				    <div id="main" class="eightcol first clearfix" role="main">
 					    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					    <article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article">
 						    <section class="entry-content">
-                                
-                              <div class="row">
+                                <div class="hero-unit">
+                                    <h1>Share your knowledge, learn new skills &amp; meet fellow coders</h1>
+                                  </div>
+
+                                  <div class="row">
+                                  <div class="span4 googlemaps">
+                                    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=cf10 1by&amp;aq=&amp;sll=52.405331,-4.159948&amp;sspn=3.579741,8.76709&amp;ie=UTF8&amp;hnear=Cardiff CF10 1BY, United Kingdom&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=cf10 1by&amp;aq=&amp;sll=52.405331,-4.159948&amp;sspn=3.579741,8.76709&amp;ie=UTF8&amp;hnear=Cardiff CF10 1BY, United Kingdom&amp;t=m&amp;z=14&amp;iwloc=A&amp;source=embed" style="text-align:left">View Larger Map</a></small>
+                                  </div>
                                   <div class="span8">
-                                      <h1 class="blue"><?php echo get_the_title()?></h1>
                                       <?php the_content(); ?>
+>
                                   </div>
-                                  <div class="span4">
-                                      <?php get_sidebar(); ?>
                                   </div>
-                              </div>
+                                
+                                
+							    
 						    </section> <!-- end article section -->
 					    </article> <!-- end article -->
 					    <?php endwhile; ?>	
