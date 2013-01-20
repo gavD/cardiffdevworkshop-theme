@@ -33,6 +33,28 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
+        
+        <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/workshop">Workshop</a></li>
+              <li><a href="/calendar">Calendar</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/contact">Blog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 	
 		<div class="container">
 			

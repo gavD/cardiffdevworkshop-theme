@@ -55,6 +55,9 @@ h3, .btnReadMore, .wp-cpl-read-more {
     line-height: 18px;
     color: #009EE2;
 }
+.wp-cpl-read-more:before {
+    content: '>  ';
+}
 #greyfooter .btnReadMore, .wp-cpl-read-more, .wp-cpl-read-more a {
     color: #fff;
     text-align: left;
@@ -117,6 +120,13 @@ header {
     padding-top: 10px;
     
 } 
+
+.navbar-inverse .navbar-inner {
+    background: #019EE3;
+}
+.navbar-inverse .nav-collapse .nav > li > a, .navbar-inverse .nav-collapse .dropdown-menu a {
+    color: #fff;
+}
 
 .sprite, .entry-content .kalendas-title, .btnsprite {
     text-indent: -1000px;
@@ -395,11 +405,27 @@ label {
     }
 }
 
-
+.navbar-fixed-top {
+    display: none;
+    margin-right: 0;
+    margin-left: 0;
+}
+.midSizes {
+        display: none;
+    }
+    .mostSizes {
+        display: block;
+    }
 @media (min-width: 767px) and (max-width: 979px) {
     .span4 input {
         
         width: 150px;
+    }
+    .midSizes {
+        display: block;
+    }
+    .mostSizes {
+        display: none;
     }
 }
 
@@ -425,8 +451,13 @@ label {
         padding-right: 0;
         padding-left: 0;
     }
-    #greyfooter, #bluefooter {
+    #greyfooter {
         padding: 20px;
+    }
+    #bluefooter {
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
     }
     .googlemaps {
         display: none;
@@ -440,7 +471,18 @@ label {
 
 }
 
+@media (max-width: 600px) {
+.navbar-fixed-top {
+        display: block;
+    }
+    header nav {
+        display: none;
+    }
+    
+}
+
 @media (max-width: 767px) {
+    
     .top-nav {
         width: 50%;
     }
@@ -513,9 +555,6 @@ article h2 {
 .upcomingEvents .kalendas-img-off {
     display: none;
 }
-.upcomingEvents a {
-    font-weight: bold;
-}
 .byline {
     color: #525252;
     margin-bottom: 14px;
@@ -546,4 +585,35 @@ iframe {
 }
 .entry-content .otw-sidebar {
     margin-top: 30px;
+}
+#greyfooter ul {
+    list-style-type: none;
+    margin : 0;
+}
+li.wp-cpl a, #greyfooter .kalendas-title {
+    clear: both;
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+    font-family: titilliummaps29l800_wt, arial;
+}
+li.wp-cpl .wp-cpl-date, .upcomingEvents a {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 13px;
+    clear: both;
+    color: #009EE2;
+    display: block;
+}
+#greyfooter .upcomingEvents div.kalendas-title {
+    border-top: gray 1px dotted;
+    padding-top: 14px;
+}
+#greyfooter .upcomingEvents div.kalendas-title:first-child {
+    border-top: none;
+    padding-top: 0px;
+}
+
+#greyfooter .upcomingEvents ul {
+    padding-bottom: 14px;
 }

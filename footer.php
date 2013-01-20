@@ -4,7 +4,8 @@
             <div class="container"> <!-- end #container -->
                 <div class="row">
                     <div class="span4">
-                        <h2><div class="sprite sprite-about-icon-png"></div>What's it about?</h2>
+                        <h2 class="mostSizes"><div class="sprite sprite-about-icon-png"></div>What's it about?</h2>
+                        <h2 class="midSizes"><div class="mid sprite sprite-about-icon-png"></div>About</h2>
                         
                         <p> Cardiff Dev Workshop is a volunteer-run series of workshops
                             for software developers in the South West. We meet up,
@@ -16,7 +17,8 @@
                         <p><a href="<?php the_permalink() ?>" class="btnReadMore" rel="bookmark" title="<?php the_title_attribute(); ?>" ><span class="sprite sprite-readmore-white-png">&gt;</span>Read more</a></p>
                     </div>
                     <div class="span4 upcomingEvents">
-                        <h2><div class="sprite sprite-events-icon-png"></div>Upcoming events</h2>
+                        <h2 class="mostSizes"><div class="sprite sprite-events-icon-png"></div>Upcoming events</h2>
+                        <h2 class="midSizes"><div class="sprite sprite-events-icon-png"></div>Events</h2>
                         <div class="widgetBox">
                             <?php dynamic_sidebar('calendar'); ?>
                         </div>
