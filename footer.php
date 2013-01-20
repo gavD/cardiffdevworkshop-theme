@@ -19,8 +19,9 @@
                             <?php dynamic_sidebar('calendar'); ?>
                         </div>
                     </div>
-                    <div class="span4">
+                    <div class="span4 latestblog">
                         <h2><div class="sprite sprite-blogs-icon-png"></div>Latest blog</h2>
+                        <?php dynamic_sidebar('otw-sidebar-2'); ?>
                     </div>
                 </div>
             </div>

@@ -56,7 +56,7 @@
 						
 							    <?php the_excerpt(); ?>
                                 
-                                <a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>">&gt; Read more</a>
+                                <a href="<?php the_permalink() ?>" class="btnReadMore" rel="bookmark" title="<?php the_title_attribute(); ?>" ><span class="sprite sprite-readmore-blue-png">&gt;</span>Read more</a>
 					
 						    </section> <!-- end article section -->
 						

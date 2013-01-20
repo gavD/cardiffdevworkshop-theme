@@ -45,11 +45,15 @@ h1, h2 {
     font-size: 32px;
     line-height: 43px;
 }
-h3 { 
+h3, .btnReadMore { 
     font-family: titilliummaps29l800_wt, arial;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
+}
+.btnReadMore {
+    line-height: 18px;
+    color: #009EE2;
 }
 .not-homepage h3 {
     color: #515151;    
@@ -217,6 +221,10 @@ header {
 }
 
 .sprite-readmore-blue-png {
+    display: block;
+    float: left;
+    margin-top: 4px;
+    margin-right: 10px;
     width: 9px;
     height: 12px;
     background-position: -207px -23px;
@@ -486,7 +494,7 @@ article h2 {
     list-style-type: none;
     margin-left: 0;
 }
-.upcomingEvents .widgettitle {
+.upcomingEvents .widgettitle, .latestblog .widgettitle {
     display: none;
 }
 .upcomingEvents .kalendas-img-off {
@@ -502,7 +510,7 @@ article h2 {
     border-bottom: lightgray 1px dotted;
 }
 .article-header h3 {
-    
+    margin-top: 0;
     margin-bottom: 0;
 }
 .article-header h3 a {
@@ -511,7 +519,12 @@ article h2 {
 
 #main h1 {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 iframe {
+}
+
+.category-blog article {
+    margin-bottom: 24px;
 }
