@@ -396,6 +396,14 @@ label {
 }
 
 
+@media (min-width: 767px) and (max-width: 979px) {
+    .span4 input {
+        
+        width: 150px;
+    }
+}
+
+
 @media (max-width: 979px) {
     #logo {
         display: none;

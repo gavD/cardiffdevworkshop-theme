@@ -1,8 +1,7 @@
-
 Bones.esproj/user.Eddie.espressostorage
-
 Bones.esproj/Project.espressostorage
-
 .project
-
 .DS_Store
+nbproject
+*sql
+
