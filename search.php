@@ -5,6 +5,8 @@
 				<div id="inner-content" class="wrap clearfix">
 			
 					<div id="main" class="eightcol first clearfix" role="main">
+                        <div class="row">
+                            <div class="span8">
 						<h1 class="archive-title"><span><?php _e('Search Results for:', 'bonestheme'); ?></span> <?php echo esc_attr(get_search_query()); ?></h1>
 
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -59,7 +61,11 @@
     					    </article>
 					
 					    <?php endif; ?>
-			
+                                </div>
+                                  <div class="span4">
+                                      <?php get_sidebar(); ?>
+                                  </div>
+                              </div>
 				    </div> <!-- end #main -->
     			
     			    <?php get_sidebar(); ?>

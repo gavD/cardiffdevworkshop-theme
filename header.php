@@ -24,6 +24,11 @@
 		
 		<link rel="stylesheet" type="text/css" href="/wp-content/themes/bones/webfonts/stylesheet.css" />
         <?php wp_head(); ?>
+        
+        <link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/img/Icons/apple-touch-icon-iphone.png" /> 
+        <link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/img/Icons/apple-touch-icon-ipad.png" /> 
+        <link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/img/Icons/apple-touch-icon-iphone4.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="<?php echo get_template_directory_uri(); ?>/img/Icons/apple-touch-icon-ipad3.png" />
 		
 	</head>
 	
@@ -33,7 +38,9 @@
 			
 			<header class="header" role="banner">
                 <div id="inner-header" class="wrap clearfix">
+                    <img id="logoAboveNav" src="/wp-content/themes/bones/img/Logo/logo.png" alt="Cardiff Dev Workshop" width="145" height="105" />
 					<nav role="navigation">
+                        
 						<?php bones_main_nav(); ?>
                         <img id="logo" src="/wp-content/themes/bones/img/Logo/logo.png" alt="Cardiff Dev Workshop" width="145" height="105" />
                         <?php bones_main_nav_rhs(); ?>

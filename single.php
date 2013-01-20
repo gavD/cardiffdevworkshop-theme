@@ -1,11 +1,9 @@
 <?php get_header(); ?>
-			
 			<div id="content">
-
 				<div id="inner-content" class="wrap clearfix">
-			
 					<div id="main" class="eightcol first clearfix" role="main">
-
+                        <div class="row">
+                            <div class="span8">
 						<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					
 							<article id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?> role="article" itemscope itemtype="http://schema.org/BlogPosting">
@@ -51,8 +49,10 @@
 						<?php endif; ?>
 			
 					</div> <!-- end #main -->
-    
-					<?php get_sidebar(); ?>
+                    <div class="span4">
+                        <?php get_sidebar(); ?>
+                    </div>
+                    </div>
 
 				</div> <!-- end #inner-content -->
     

@@ -1,16 +1,13 @@
 <?php get_header(); ?>
-			
 			<div id="content">
-
 				<div id="inner-content" class="wrap clearfix">
-			
 					<div id="main" class="eightcol first clearfix" role="main">
-
 						<article id="post-not-found" class="hentry clearfix">
-						
+                           <div class="row">
+                                  <div class="span8">
 							<header class="article-header">
 							
-								<h1><?php _e("Epic 404 - Article Not Found", "bonestheme"); ?></h1>
+								<h1 class="blue"><?php _e("Epic 404 - Article Not Found", "bonestheme"); ?></h1>
 						
 							</header> <!-- end article header -->
 					
@@ -31,7 +28,12 @@
 							    <p><?php _e("This is the 404.php template.", "bonestheme"); ?></p>
 							
 							</footer> <!-- end article footer -->
-					
+                            
+                            </div>
+                            <div class="span4">
+                                <?php get_sidebar(); ?>
+                            </div>
+                         </div>
 						</article> <!-- end article -->
 			
 					</div> <!-- end #main -->

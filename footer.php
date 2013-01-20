@@ -13,8 +13,11 @@
                         
                         <p> <em>It's as good as you make it!</em></p>
                     </div>
-                    <div class="span4">
+                    <div class="span4 upcomingEvents">
                         <h2><div class="sprite sprite-events-icon-png"></div>Upcoming events</h2>
+                        <div class="widgetBox">
+                            <?php dynamic_sidebar('calendar'); ?>
+                        </div>
                     </div>
                     <div class="span4">
                         <h2><div class="sprite sprite-blogs-icon-png"></div>Latest blog</h2>
@@ -27,7 +30,6 @@
                 <footer class="footer" role="contentinfo">
                     <div id="inner-footer" class="wrap clearfix">
                         <nav role="navigation">
-                            <?php bones_footer_links(); ?>
                             <div class="source-org copyright">&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?>.</div>
                         
                             <div id="twitterLink"><a class="sprite sprite-twitter-footer-png" href="https://twitter.com/cardiffdevworks">@cardiffdevworks</a></div>

@@ -1,21 +1,25 @@
-#logo {
-    float: left;
-    margin-left: 35px;
-    margin-right: 35px;
-}
-
-.top-nav {
-    float: left;
-    
-}
-
 body {
     background-image: url('img/BackgroundPatterns/white.png');
-    font-family: titilliummaps29l1_wt, verdana, arial;
+    font-family: verdana, arial;
     color: #959595;
 
 }
 
+#logo {
+    float: left;
+    margin-left: 15px;
+    margin-right: 35px;
+}
+#logoAboveNav {
+    clear: both;
+}
+#inner-header {
+    text-align: center;
+}
+.top-nav {
+    float: left;
+    
+}
 
 #greyfooter {
     margin-top: 90px;
@@ -72,28 +76,14 @@ h3 {
     float: left;
     line-height: 38px;
     width: 110px;
-    
 }
-.top-nav li:last-child {
+#menu-homepage-right li:last-child {
     margin-right: 0;
 }
 header {
     margin-top: 24px;
 }
 
-@media (max-width: 979px) {
-    #logo {
-        display: none;
-    }
-    
-}
-
-@media (max-width: 767px) {
-    .top-nav li {
-        margin-top: 10px;
-        
-    }
-}
 
 #bluefooter {
     -webkit-box-shadow: 0px -4px 4px rgba(1, 158, 227, 0.88);
@@ -108,11 +98,20 @@ header {
     
 } 
 
-.sprite {
+.sprite, .entry-content .kalendas-title, .btnsprite {
     text-indent: -1000px;
     background: url(img/sprite.png) no-repeat;
     overflow: hidden;
     background-repeat:no-repeat;
+}
+.entry-content  .kalendas-title {
+    text-indent: 0;
+    color: #fff;
+    padding-left: 6px;
+    padding-top: 14px;
+    text-transform: uppercase;
+    font-size: 16px;
+    float:left;
 }
 
 .sprite-about-icon-png {
@@ -131,10 +130,11 @@ header {
     margin-right: 6px;
 }
 
-.sprite-calendar-date-png {
+.sprite-calendar-date-png, .entry-content  .kalendas-title {
     width: 59px;
     height: 51px;
     background-position: -0px -0px;
+    
 }
 
 .sprite-calendar-png {
@@ -276,7 +276,7 @@ header {
     padding-top: 30px;
     padding-bottom: 40px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 33px;
     background-color: transparent;
     border-bottom: dotted 1px #929291;
 }
@@ -295,15 +295,92 @@ p, li {
     color: #969595;
 }
 
-.btnRegisterNow {
-    float: left;
-    margin-top: 8px;
-    margin-right: 40px;
-    margin-bottom: 20px;
+
+#main {
+    padding-top: 37px;
+}
+#main.mainhome {
+    padding-top: 0px;
+}
+
+.widget {
+    font-size: 13px;
+    color: #838383;
+    
+    margin-bottom: 14px;
+}
+.span4 .widget {
+        padding: 32px;
+    font-family: Arial Bold, Arial;
+
+    background: #e3e3e3; 
+    background: rgba(227, 227, 227, 0.4);
+}
+.widget b, .widget strong {
+    color: #838383;
+}
+.span8 .widgettitle {
+    display: none;
+}
+.widget h4 {
+    font-weight: normal;
+    font-size: 19px;
+    border-bottom: lightgray 1px dotted;
+    font-family: titilliummaps29l800_wt, arial;
+    color: #009EE2;
+    padding-bottom: 12px;
+    margin-bottom: 16px;
+}
+label {
+    font-family: titilliummaps29l800_wt, arial;
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 4px;
+    color: #525252;
+}
+#FSContact1 {
+    height: 410px;
+}
+.widget_kalendas div {
+    display: block !important;
+    visibility: visible !important;
+}
+.widget_kalendas li {
+    padding-left: 60px;
+}
+.widget_kalendas li a.thickbox {
+    display: none;
+}
+.widget_kalendas  h2 {
+    width: 100%;
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #515151;
+    border-bottom: grey 1px dotted;
 }
 
 
-@media (max-width: 767px) {
+@media (min-width: 1200px) {
+    .top-nav li {
+        width: 149px;
+    }
+}
+
+@media (min-width: 979px) {
+    #logoAboveNav {
+        display: none;
+    }
+}
+
+
+@media (max-width: 979px) {
+    #logo {
+        display: none;
+    }
+    .top-nav li {
+        margin-top: 10px;
+        width: 107px;
+    }
     body {
         padding-right: 0;
         padding-left: 0;
@@ -332,28 +409,99 @@ p, li {
 
 }
 
-.not-homepage  {
-    padding-top: 37px;
+@media (max-width: 767px) {
+    .top-nav {
+        width: 50%;
+    }
+    .top-nav li {
+        width: 31%;
+        margin-right: 2%;
+    }
+    .top-nav li:last-child {
+        margin-right: 0;
+    }
 }
 
-.widget {
-    padding: 32px;
-    font-family: Arial Bold, Arial;
-    font-size: 13px;
-    color: #838383;
-    background: #e3e3e3; 
-    background: rgba(227, 227, 227, 0.4);
+
+article h2 {
+    margin-top: 0;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+
+.entry-content .kalendas-title {
+    text-indent: 0;
+    color: #fff;
+    padding-left: 6px;
+    padding-top: 14px;
+    text-transform: uppercase;
+    font-size: 16px;
+    float:left;
+}
+
+.btnsprite {
+    background: url(img/Buttons/download.png) no-repeat;
+}
+
+.sprite-register-btn-png {
+    width: 158px;
+    height: 50px;
+    background-position: -0px -0px;
+    
+    float: left;
+    margin-top: 8px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.sprite-register-btn-png:active {
+    background-position: -0px -50px;
+}
+
+.sprite-signup-btn-png {
+    width: 128px;
+    height: 100px;
+    background-position: -169px -0px;
+}
+
+.sprite-submit-btn-png {
+    width: 119px;
+    height: 100px;
+    background-position: -0px -111px;
+}
+.nav > li > a:hover {
+    background-color: transparent;
+}
+
+.upcomingEvents ul {
+    list-style-type: none;
+    margin-left: 0;
+}
+.upcomingEvents .widgettitle {
+    display: none;
+}
+.upcomingEvents .kalendas-img-off {
+    display: none;
+}
+.upcomingEvents a {
+    font-weight: bold;
+}
+.byline {
+    color: #525252;
     margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: lightgray 1px dotted;
 }
-.widget b, .widget strong {
-    color: #838383;
+.article-header h3 {
+    
+    margin-bottom: 0;
 }
-.widget h4 {
-    font-weight: normal;
-    font-size: 19px;
-    border-bottom: gray 1px dotted;
-    font-family: titilliummaps29l800_wt, arial;
-    color: #009EE2;
-    padding-bottom: 12px;
-    margin-bottom: 16px;
+.article-header h3 a {
+    color: #525252;
+}
+
+#main h1 {
+    margin-top: 0;
+}
+
+iframe {
 }
