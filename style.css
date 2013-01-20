@@ -1,8 +1,18 @@
+/*
+Theme Name: Cardiff Dev Workshop
+Theme URI: http://cardiffdevworkshop.com/
+Description: <a href="http://twitter.github.com/bootstrap/">Bootstrap-based</a> responsive theme forked from <a href="http://themble.com/bones/">Bones</a>. Designed by <a href="http://karolodesign.com/">Karolo Design</a>.
+Author: Gavin Davies
+Author URI: http://www.gavd.co.uk/
+Version: 0.9
+Tags: bootstrap, responsive
+License: GPL v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+*/
 body {
     background-image: url('img/BackgroundPatterns/white.png');
     font-family: verdana, arial;
     color: #959595;
-
 }
 
 #logo {
