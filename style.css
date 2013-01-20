@@ -45,15 +45,21 @@ h1, h2 {
     font-size: 32px;
     line-height: 43px;
 }
-h3, .btnReadMore { 
+h3, .btnReadMore, .wp-cpl-read-more { 
     font-family: titilliummaps29l800_wt, arial;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
 }
-.btnReadMore {
+.btnReadMore, .wp-cpl-read-more {
     line-height: 18px;
     color: #009EE2;
+}
+#greyfooter .btnReadMore, .wp-cpl-read-more, .wp-cpl-read-more a {
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+    font-weight: normal;
 }
 .not-homepage h3 {
     color: #515151;    
@@ -220,7 +226,7 @@ header {
     background-position: -157px -125px;
 }
 
-.sprite-readmore-blue-png {
+.sprite-readmore-blue-png, .sprite-readmore-white-png {
     display: block;
     float: left;
     margin-top: 4px;
@@ -231,8 +237,6 @@ header {
 }
 
 .sprite-readmore-white-png {
-    width: 9px;
-    height: 12px;
     background-position: -207px -0px;
 }
 
@@ -364,7 +368,8 @@ label {
     visibility: visible !important;
 }
 .widget_kalendas li {
-    padding-left: 60px;
+    padding-left: 80px;
+    margin-bottom: 40px;
 }
 .widget_kalendas li a.thickbox {
     display: none;
@@ -490,7 +495,7 @@ article h2 {
     background-color: transparent;
 }
 
-.upcomingEvents ul {
+.widget_kalendas ul {
     list-style-type: none;
     margin-left: 0;
 }
@@ -527,4 +532,10 @@ iframe {
 
 .category-blog article {
     margin-bottom: 24px;
+}
+.page-id-4 h1.blue:first-child {
+    display: none;
+}
+.entry-content .otw-sidebar {
+    margin-top: 30px;
 }

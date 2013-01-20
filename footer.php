@@ -12,6 +12,8 @@
                             and try to answer each other's questions.</p>
                         
                         <p> <em>It's as good as you make it!</em></p>
+                        
+                        <p><a href="<?php the_permalink() ?>" class="btnReadMore" rel="bookmark" title="<?php the_title_attribute(); ?>" ><span class="sprite sprite-readmore-white-png">&gt;</span>Read more</a></p>
                     </div>
                     <div class="span4 upcomingEvents">
                         <h2><div class="sprite sprite-events-icon-png"></div>Upcoming events</h2>
