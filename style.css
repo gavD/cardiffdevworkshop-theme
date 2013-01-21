@@ -28,7 +28,6 @@ body {
 }
 .top-nav {
     float: left;
-    
 }
 
 #greyfooter {
@@ -620,6 +619,9 @@ li.wp-cpl .wp-cpl-date, .upcomingEvents a {
         padding-top: 5px;
         clear: both;
         position: inherit;
+    }
+    #bluefooter {
+        height: 65px;
     }
 }
 
