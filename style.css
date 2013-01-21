@@ -457,6 +457,7 @@ article h2 {
     background-position: 0px -50px;
 }
 #FSContact2 input[type="submit"] {
+    width: 128px;
     background: url(img/Buttons/signup-btn.png) no-repeat;
 }
 .nav > li > a:hover {
