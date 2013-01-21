@@ -71,7 +71,8 @@ h3, .btnReadMore, .wp-cpl-read-more {
     font-weight: normal;
 }
 .not-homepage h3 {
-    color: #515151;    
+    color: #515151;
+    margin-top: 20px;
 }
 .blue {
     color: #009EE2
@@ -134,7 +135,7 @@ header {
     color: #fff;
 }
 
-.sprite, .entry-content .kalendas-title, .btnsprite, .wp-cpl-read-more {
+.sprite, .entry-content .kalendas-title, .btnsprite, .wp-cpl-read-more, input[type="submit"] {
     text-indent: -1000px;
     background: url(img/sprite.png) no-repeat;
     overflow: hidden;
@@ -434,7 +435,7 @@ article h2 {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-.sprite-register-btn-png:active {
+.sprite-register-btn-png:hover {
     background-position: -0px -50px;
 }
 
@@ -444,10 +445,19 @@ article h2 {
     background-position: -169px -0px;
 }
 
-.sprite-submit-btn-png {
+.sprite-submit-btn-png, input[type="submit"] {
+    text-indent: -1000px;
+    background: url(img/Buttons/submit-btn.png) no-repeat;
     width: 119px;
-    height: 100px;
-    background-position: -0px -111px;
+    height: 50px;
+    background-position: 0px 0px;
+    border: none;
+}
+.sprite-submit-btn-png, input[type="submit"]:hover {
+    background-position: 0px -50px;
+}
+#FSContact2 input[type="submit"] {
+    background: url(img/Buttons/signup-btn.png) no-repeat;
 }
 .nav > li > a:hover {
     background-color: transparent;
@@ -620,7 +630,7 @@ li.wp-cpl .wp-cpl-date, .upcomingEvents a {
         display: none;
     }
     
-    .sprite-register-btn-png, .sprite-register-btn-png:active {
+    .sprite-register-btn-png, .sprite-register-btn-png:hover {
         clear: both;
         float: none;
         background-position: 0px 0px;

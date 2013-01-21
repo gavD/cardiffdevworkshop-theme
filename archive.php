@@ -7,7 +7,7 @@
                             <div class="span8">
 					    <?php if (is_category()) { ?>
 						    <h1 class="blue archive-title h2">
-							    <span><?php _e("Posts Categorized:", "bonestheme"); ?></span> <?php single_cat_title(); ?>
+							    Cardiff Dev Workshop blog
 					    	</h1>
 					    <?php } elseif (is_tag()) { ?> 
 						    <h1 class="blue archive-title h2">
