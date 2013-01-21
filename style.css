@@ -55,9 +55,15 @@ h3, .btnReadMore, .wp-cpl-read-more {
     line-height: 18px;
     color: #009EE2;
 }
-.wp-cpl-read-more:before {
-    content: '>  ';
+.wp-cpl-read-more {
+    width: 160px !important;
+    text-indent: 18px !important;
+    height: 18px !important;
+    background-position: -207px 4px !important;
 }
+/*.wp-cpl-read-more:before {
+    content: '>  ';
+}*/
 #greyfooter .btnReadMore, .wp-cpl-read-more, .wp-cpl-read-more a {
     color: #fff;
     text-align: left;
@@ -128,7 +134,7 @@ header {
     color: #fff;
 }
 
-.sprite, .entry-content .kalendas-title, .btnsprite {
+.sprite, .entry-content .kalendas-title, .btnsprite, .wp-cpl-read-more {
     text-indent: -1000px;
     background: url(img/sprite.png) no-repeat;
     overflow: hidden;
@@ -236,7 +242,7 @@ header {
     background-position: -157px -125px;
 }
 
-.sprite-readmore-blue-png, .sprite-readmore-white-png {
+.sprite-readmore-blue-png, .sprite-readmore-white-png, .wp-cpl-read-more {
     display: block;
     float: left;
     margin-top: 4px;
@@ -246,7 +252,7 @@ header {
     background-position: -207px -23px;
 }
 
-.sprite-readmore-white-png {
+.sprite-readmore-white-png, .wp-cpl-read-more {
     background-position: -207px -0px;
 }
 
@@ -301,6 +307,9 @@ header {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.itsFree {
+    padding-top: 10px;
+}
 
 
 .hero-unit {
@@ -313,6 +322,7 @@ header {
     border-bottom: dotted 1px #929291;
 }
 .hero-unit h1 {
+    letter-spacing: 0;
     font-family: titilliummaps29l800_wt, arial;
     font-size: 32px;
     font-weight: normal;
@@ -393,113 +403,11 @@ label {
 }
 
 
-@media (min-width: 1200px) {
-    .top-nav li {
-        width: 149px;
-    }
-}
-
-@media (min-width: 979px) {
-    #logoAboveNav {
-        display: none;
-    }
-}
-
-.navbar-fixed-top {
-    display: none;
-    margin-right: 0;
-    margin-left: 0;
-}
-.midSizes {
-        display: none;
-    }
-    .mostSizes {
-        display: block;
-    }
-@media (min-width: 767px) and (max-width: 979px) {
-    .span4 input {
-        
-        width: 150px;
-    }
-    .midSizes {
-        display: block;
-    }
-    .mostSizes {
-        display: none;
-    }
-}
-
-
-@media (max-width: 979px) {
-    #logo {
-        display: none;
-    }
-    .top-nav li {
-        margin-top: 10px;
-        width: 107px;
-    }
-    body {
-        padding-right: 0;
-        padding-left: 0;
-    }
-    .container {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
-    #greyfooter .container,
-    #bluefooter .container{
-        padding-right: 0;
-        padding-left: 0;
-    }
-    #greyfooter {
-        padding: 20px;
-    }
-    #bluefooter {
-        padding: 20px;
-        padding-top: 10px;
-        padding-bottom: 0px;
-    }
-    .googlemaps {
-        display: none;
-    }
-    #greyfooter {
-        margin-top: 10px;
-    }
-    #greyfooter .span4 {
-        padding-bottom: 10px;
-    }
-
-}
-
-@media (max-width: 600px) {
-.navbar-fixed-top {
-        display: block;
-    }
-    header nav {
-        display: none;
-    }
-    
-}
-
-@media (max-width: 767px) {
-    
-    .top-nav {
-        width: 50%;
-    }
-    .top-nav li {
-        width: 31%;
-        margin-right: 2%;
-    }
-    .top-nav li:last-child {
-        margin-right: 0;
-    }
-}
-
-
 article h2 {
-    margin-top: 0;
-    line-height: 21px;
+    line-height: 36px;
     margin-bottom: 15px;
+    margin-top: -7px;
+    
 }
 
 .entry-content .kalendas-title {
@@ -523,7 +431,7 @@ article h2 {
     
     float: left;
     margin-top: 8px;
-    margin-right: 40px;
+    margin-right: 20px;
     margin-bottom: 20px;
 }
 .sprite-register-btn-png:active {
@@ -616,4 +524,128 @@ li.wp-cpl .wp-cpl-date, .upcomingEvents a {
 
 #greyfooter .upcomingEvents ul {
     padding-bottom: 14px;
+}
+
+@media (min-width: 1200px) {
+    .top-nav li {
+        width: 149px;
+    }
+}
+
+@media (min-width: 979px) {
+    #logoAboveNav {
+        display: none;
+    }
+}
+
+.navbar-fixed-top {
+    display: none;
+    margin-right: 0;
+    margin-left: 0;
+}
+.midSizes {
+    display: none;
+}
+.mostSizes {
+    display: block;
+}
+@media (min-width: 767px) and (max-width: 979px) {
+    .span4 input {
+        
+        width: 150px;
+    }
+    .midSizes {
+        display: block;
+    }
+    .mostSizes {
+        display: none;
+    }
+}
+
+
+@media (max-width: 979px) {
+    #logo {
+        display: none;
+    }
+    .top-nav li {
+        margin-top: 10px;
+        width: 107px;
+    }
+    body {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .container {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #greyfooter .container,
+    #bluefooter .container{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #greyfooter {
+        padding: 20px;
+    }
+    #bluefooter {
+        padding: 20px;
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .googlemaps {
+        display: none;
+    }
+    #greyfooter {
+        margin-top: 10px;
+    }
+    #greyfooter .span4 {
+        padding-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 440px) {
+    #karoloLogo {
+        padding-top: 5px;
+        clear: both;
+        position: inherit;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-fixed-top {
+        display: block;
+    }
+    header nav {
+        display: none;
+    }
+    
+    .sprite-register-btn-png, .sprite-register-btn-png:active {
+        clear: both;
+        float: none;
+        background-position: 0px 0px;
+        display: block;
+        margin: 0 auto;
+        background-image: url('img/Buttons/Mobile/register-btn.png');
+        width: 405px;
+        height: 125px;
+    }
+    p.itsFree {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    
+    .top-nav {
+        width: 50%;
+    }
+    .top-nav li {
+        width: 31%;
+        margin-right: 2%;
+    }
+    .top-nav li:last-child {
+        margin-right: 0;
+    }
+    
 }
