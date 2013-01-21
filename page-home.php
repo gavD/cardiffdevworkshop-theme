@@ -16,7 +16,7 @@ Template Name: Homepage
                                   </div>
                                   <div class="row">
                                   <div class="span4 googlemaps">
-                                    <iframe src="http://www.map-generator.org/621b37ee-99fe-44dc-b07c-d7a3a4a52d77/iframe-map.aspx" scrolling="no" height="350px" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><small><a href="http://www.map-generator.org/621b37ee-99fe-44dc-b07c-d7a3a4a52d77/large-map.aspx" target="_blank">Open large map<a/></small>
+                                    <iframe src="http://www.map-generator.org/621b37ee-99fe-44dc-b07c-d7a3a4a52d77/iframe-map.aspx" scrolling="no" height="350px" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><small><a href="http://www.map-generator.org/621b37ee-99fe-44dc-b07c-d7a3a4a52d77/large-map.aspx" target="_blank">Open large map</a></small>
                                   </div>
                                   <div class="span8">
                                       <?php the_content(); ?>
