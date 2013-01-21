@@ -14,10 +14,9 @@ Template Name: Homepage
                                 <div class="hero-unit">
                                     <h1>Share your knowledge, learn new skills &amp; meet fellow coders</h1>
                                   </div>
-
                                   <div class="row">
                                   <div class="span4 googlemaps">
-                                    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=cf10 1by&amp;aq=&amp;sll=52.405331,-4.159948&amp;sspn=3.579741,8.76709&amp;ie=UTF8&amp;hnear=Cardiff CF10 1BY, United Kingdom&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=cf10 1by&amp;aq=&amp;sll=52.405331,-4.159948&amp;sspn=3.579741,8.76709&amp;ie=UTF8&amp;hnear=Cardiff CF10 1BY, United Kingdom&amp;t=m&amp;z=14&amp;iwloc=A&amp;source=embed" style="text-align:left">View Larger Map</a></small>
+                                    <iframe src="http://www.map-generator.org/621b37ee-99fe-44dc-b07c-d7a3a4a52d77/iframe-map.aspx" scrolling="no" height="350px" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><small><a href="http://www.map-generator.org/621b37ee-99fe-44dc-b07c-d7a3a4a52d77/large-map.aspx" target="_blank">Open large map<a/></small>
                                   </div>
                                   <div class="span8">
                                       <?php the_content(); ?>
