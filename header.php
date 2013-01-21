@@ -49,7 +49,7 @@
               <li><a href="/workshop">Workshop</a></li>
               <li><a href="/calendar">Calendar</a></li>
               <li><a href="/blog">Blog</a></li>
-              <li><a href="/contact">Blog</a></li>
+              <li><a href="/contact">Contact</a></li>
             </ul>
           </div>
         </div>
