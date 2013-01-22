@@ -568,7 +568,7 @@ li.wp-cpl .wp-cpl-date, .upcomingEvents a {
         
         width: 150px;
     }
-    .midSizes {
+    span8 .midSizes {
         display: block;
     }
     .mostSizes {
@@ -634,6 +634,13 @@ li.wp-cpl .wp-cpl-date, .upcomingEvents a {
     #bluefooter {
         height: 65px;
     }
+    .span4 .regNowBtn {
+        display: none;
+    }
+    .span4 .regNowBtnMobile {
+        display: block;
+        text-align: center;
+    }
 }
 
 @media (max-width: 600px) {
@@ -644,10 +651,10 @@ li.wp-cpl .wp-cpl-date, .upcomingEvents a {
         display: none;
     }
     
-    .regNowBtn {
+    .span8 .regNowBtn {
         display: none;
     }
-    .regNowBtnMobile {
+    .span8 .regNowBtnMobile {
         display: block;
         text-align: center;
     }

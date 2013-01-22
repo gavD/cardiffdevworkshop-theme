@@ -60,11 +60,11 @@
 			
 			<header class="header" role="banner">
                 <div id="inner-header" class="wrap clearfix">
-                    <img id="logoAboveNav" src="/wp-content/themes/bones/img/Logo/logo.png" alt="Cardiff Dev Workshop" width="145" height="105" />
+                    <a id="logoAboveNav" href="/"><img src="/wp-content/themes/bones/img/Logo/logo.png" alt="Cardiff Dev Workshop" width="145" height="105" /></a>
 					<nav role="navigation">
                         
 						<?php bones_main_nav(); ?>
-                        <img id="logo" src="/wp-content/themes/bones/img/Logo/logo.png" alt="Cardiff Dev Workshop" width="145" height="105" />
+                        <a id="logo" href="/"><img src="/wp-content/themes/bones/img/Logo/logo.png" alt="Cardiff Dev Workshop" width="145" height="105" /></a>
                         <?php bones_main_nav_rhs(); ?>
 					</nav>
 				</div> <!-- end #inner-header -->
