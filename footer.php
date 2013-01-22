@@ -14,7 +14,7 @@
                         
                         <p> <em>It's as good as you make it!</em></p>
                         
-                        <p><a href="<?php the_permalink() ?>" class="btnReadMore" rel="bookmark" title="<?php the_title_attribute(); ?>" ><span class="sprite sprite-readmore-white-png">&gt;</span>Read more</a></p>
+                        <p><a href="/about" class="btnReadMore" rel="bookmark" title="About Cardiff Dev Workshop"><span class="sprite sprite-readmore-white-png">&gt;</span>Read more</a></p>
                     </div>
                     <div class="span4 upcomingEvents">
                         <h2 class="mostSizes"><div class="sprite sprite-events-icon-png"></div>Upcoming events</h2>
@@ -22,6 +22,7 @@
                         <div class="widgetBox">
                             <?php dynamic_sidebar('calendar'); ?>
                         </div>
+                        <p><a href="/calendar" class="btnReadMore" rel="bookmark" title="Cardiff Dev Workshop events"><span class="sprite sprite-readmore-white-png">&gt;</span>Read more</a></p>
                     </div>
                     <div class="span4 latestblog">
                         <h2><div class="sprite sprite-blogs-icon-png"></div>Latest blog</h2>

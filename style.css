@@ -44,13 +44,13 @@ h1, h2 {
     font-size: 32px;
     line-height: 43px;
 }
-h3, .btnReadMore, .wp-cpl-read-more { 
+h3, .btnReadMore, .wp-cpl-read-more, .upcomingEvents a.btnReadMore { 
     font-family: titilliummaps29l800_wt, arial;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
 }
-.btnReadMore, .wp-cpl-read-more {
+.btnReadMore, .wp-cpl-read-more , .upcomingEvents a.btnReadMore{
     line-height: 18px;
     color: #009EE2;
 }
