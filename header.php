@@ -8,6 +8,9 @@
 		<meta charset="utf-8">
 		
 		<title><?php wp_title(''); ?> | Cardiff Dev Workshop</title>
+        
+        <meta name="description" content="Volunteer-run coder workshops in Cardiff - get involved!" />
+        <meta name="keywords"    content="coding, cardiff, south west, programmer, programming, dev, developer, coder, unified diff" />
 		
 		<!-- Google Chrome Frame for IE -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
