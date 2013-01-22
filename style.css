@@ -424,6 +424,10 @@ article h2 {
     background: url(img/Buttons/download.png) no-repeat;
 }
 
+.btn-navbar {
+    background-image: url('img/Icons/MobileSpecific/navigation.png');
+}
+
 .sprite-register-btn-png {
     width: 158px;
     height: 50px;
@@ -614,6 +618,13 @@ li.wp-cpl .wp-cpl-date, .upcomingEvents a {
 
 }
 
+.regNowBtn {
+    display: block
+}
+.regNowBtnMobile {
+    display: none;
+}
+
 @media (max-width: 440px) {
     #karoloLogo {
         padding-top: 5px;
@@ -633,15 +644,16 @@ li.wp-cpl .wp-cpl-date, .upcomingEvents a {
         display: none;
     }
     
-    .sprite-register-btn-png, .sprite-register-btn-png:hover {
-        clear: both;
-        float: none;
-        background-position: 0px 0px;
+    .regNowBtn {
+        display: none;
+    }
+    .regNowBtnMobile {
         display: block;
+        text-align: center;
+    }
+    .regNowBtnMobile  img {
         margin: 0 auto;
-        background-image: url('img/Buttons/Mobile/register-btn.png');
-        width: 405px;
-        height: 125px;
+        width: 80%;
     }
     p.itsFree {
         text-align: center;
