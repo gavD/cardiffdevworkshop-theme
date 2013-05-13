@@ -67,7 +67,7 @@ jQuery(document).ready(function($) {
     
 	
 	// add all your scripts here
-	
+	$('#si_contact_email2').attr('placeholder', 'Your email address');
  
 }); /* end of as page load scripts */
 
