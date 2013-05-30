@@ -20,9 +20,11 @@ Template Name: Workshop
                                   <div class="span4">
                                       <div class="widget widget_text">
                                           <h4 class="widgettitle">Register for this Event</h4>
+<!--
 						<p>Registration is not yet open! Please check back soon. Hit us on <a href="https://twitter.com/cardiffdevworks">Twitter</a> if you want more info!</p>
+-->
                                       <?php 
-					#	if ( isset($si_contact_form) ) echo $si_contact_form->si_contact_form_short_code(array('form' => 2));
+					if ( isset($si_contact_form) ) echo $si_contact_form->si_contact_form_short_code(array('form' => 2));
 					?>
                                       </div>
                                       <div id="text-2" class="widget widget_text"><h4 class="widgettitle">Interested in speaking?</h4>			<div class="textwidget">If you would like to speak at one of our events, please <a href="/contact">Contact Us</a></div>

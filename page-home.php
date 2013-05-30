@@ -17,7 +17,11 @@ Template Name: Homepage
                                   <div class="row">
                                   <div class="span4 googlemaps">
 <!-- http://www.map-generator.org/33f540a4-c016-4484-b5d1-e49d2ad9ba41/iframe-map.aspx -->
+                                    <iframe src="http://www.map-generator.org/d6fbe1f1-50bf-4fb4-a319-3b2760cfe134/iframe-map.aspx" scrolling="no" height="350px" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><small><a href="http://www.map-generator.org/d6fbe1f1-50bf-4fb4-a319-3b2760cfe134/large-map.aspx" target="_blank">Open large map</a></small>
+<!--
+Cardiff Bay
                                     <iframe src="http://www.map-generator.org/33f540a4-c016-4484-b5d1-e49d2ad9ba41/iframe-map.aspx" scrolling="no" height="350px" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br><small><a href="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=cf10 1by&amp;aq=&amp;sll=52.405331,-4.159948&amp;sspn=3.579741,8.76709&amp;ie=UTF8&amp;hnear=Cardiff CF10 1BY, United Kingdom&amp;t=m&amp;z=14&amp;iwloc=A&amp;source=embed" style="text-align:left">View Larger Map</a></small>
+-->
                                   </div>
                                   <div class="span8">
                                       <?php the_content(); ?>
