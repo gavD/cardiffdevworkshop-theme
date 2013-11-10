@@ -5876,7 +5876,7 @@ h3, .btnReadMore, .wp-cpl-read-more, .upcomingEvents a.btnReadMore {
 }
 .blue {
     color: #009EE2;
-    background-colour: none !important;
+    background-color: transparent !important;
 }
 #greyfooter h2{
     font-size: 26px;
